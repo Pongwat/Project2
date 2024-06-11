@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+ul  {
+    display: flex;
+    justify-content: center; 
+}
+
+ul li  {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    margin-top: 10px;
+}
+
+
+.apply-form {
+    background-color: #e4dfdf;
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    
+    display: inline-block;
+    box-sizing: border-box;
+}
+ 
+</style>
+<body>
+
+<div class="form-systems">
+    <ul>
+        <li><img src="images/dopa-logo2.png" alt="logo"></li>
+        <li><h3>Salary, wages, and pension systems <br> Treasury Division, Department of Provincial Administration</h3></li>
+    </ul>
+    
+    <div class="apply-form">
+        <form>
+            <h3>Apply for membership</h3>
+            <lebel for="Membership type">Membership type</lebel><br>
+            <select id="Membership type" name="Membership type">
+                <option value="central">Central</option>
+                <option value="province">Province</option>
+                <option value="district">District</option>
+                <option value="pensioner">Pensioner</option>
+
+            </select>
+            <h4>personal information</h4>
+        </form>
+    </div>
+</div>  
+
+</body>
+</html>
